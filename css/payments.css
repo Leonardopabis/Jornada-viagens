@@ -1,0 +1,82 @@
+.payments {
+    width: 312px;
+}
+
+.payments .section-title h2{
+    width: 100%;
+    font-size: 32px;
+}
+
+.payments .content-title {
+    margin: 32px 0 24px;
+}
+
+
+
+.payments .img-gallery{
+    margin-top: 24px;
+    height: 460px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+
+
+.payments .img-gallery .image.first{
+    background: url(../img/Montagem\ japão\ 1.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .img-gallery .image.second{
+    background: url(../img/Montagem\ japão\ 2.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .img-gallery .image.third{
+    background: url(../img/Montagem\ japão\ 3.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .img-gallery .image.colspan-2 {
+    grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+    .payments{
+        width: 768px;
+    }
+    .payments .img-gallery .image.first{
+    background: url(../img/Montagem\ japão\ 1\ tabletdesk.png) no-repeat;
+    background-size: cover;
+    }
+
+.payments .img-gallery .image.second{
+    background: url(../img/Montagem\ japão\ 2\ tabletdesk.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .img-gallery .image.third{
+    background: url(../img/Montagem\ japão\ 3\ tabletdesk.png) no-repeat;
+    background-size: cover;
+}
+}
+
+@media screen and (min-width: 1440px) {
+    .payments{
+        width: 1200px;
+    }
+    .payments .content-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+    .payments .text-content {
+        width: 360px;
+    }
+
+    .payments .img-gallery {
+        width: 790px;
+        margin: 0;
+    }
+}

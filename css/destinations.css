@@ -39,15 +39,10 @@
 
 .destinations .item header h4 {
     margin: 24px 0;
-    font-size: 28px;
-    font-weight: var(--title-weight);
 }
 
 .destinations .item p {
-    font-size: 20px;
     margin-bottom: 24px;
-    font-weight: var(--title-weight);
-    line-height: 32px;
 }
 
 /* .destinations a {
